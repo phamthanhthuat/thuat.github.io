@@ -4,7 +4,7 @@
     width: 100%;
     height: 100%;
     animation: waterMove 15s linear infinite;
-    z-index: 1; /* Nước nằm bên dưới */
+    z-index: 1; 
     animation-fill-mode: forwards;
 }
 
@@ -12,12 +12,12 @@
     position: absolute;
     transform: translateY(-50%);
     width: 50px;
-    z-index: 3; /* Cá nằm trên nước */
+    z-index: 3; 
     animation-fill-mode: forwards;
 }
 #sanho1, #sanho2, #sanho3, #sanho4, #sanho5, #sanho6, #sanho7,#sua,#sua2,#sua3,#sua1,#sua5,#sua6 {
-    position: absolute; /* Đặt các hình ảnh san hô ở vị trí tuyệt đối */
-    width: 250px; /* Kích thước của san hô */
-    z-index: 2; /* San hô nằm trên nước */
+    position: absolute; 
+    width: 250px;
+    z-index: 2; 
     animation-fill-mode: forwards;
 }
