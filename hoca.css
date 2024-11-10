@@ -8,7 +8,7 @@
     animation-fill-mode: forwards;
 }
 
-#ca1, #ca2, #ca3, #ca4, #ca5, #ca6,#ca7,#cua,#cua1,#rua {
+#ca1, #ca2, #ca3, #ca4, #ca5, #ca6,#ca7,#cua,#cua1{
     position: absolute;
     transform: translateY(-50%);
     width: 50px;
